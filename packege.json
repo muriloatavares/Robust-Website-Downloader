@@ -1,0 +1,20 @@
+{
+  "name": "robust-website-downloader",
+  "version": "1.0.0",
+  "description": "Um script robusto em Node.js para baixar a estrutura completa de websites.",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "keywords": ["website", "downloader", "nodejs", "html", "css", "javascript"],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "chalk": "^5.2.0",
+    "cli-progress": "^3.12.0",
+    "archiver": "^5.3.1",
+    "p-limit": "^3.1.0"
+  }
+}
